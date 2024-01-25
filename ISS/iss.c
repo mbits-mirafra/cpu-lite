@@ -130,7 +130,7 @@ void simulate() {
                 registers[out] = ~registers[in1];
                 break;
             case 12: // CMP
-                registers[out] = (registers[in1] - registers[in2] > 0);
+                registers[out] = (registers[in1] > registers[in2]);
                 break;
             case 13: // EQ
                 registers[out] = registers[in1] == registers[in2];
