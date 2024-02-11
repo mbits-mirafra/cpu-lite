@@ -21,7 +21,7 @@ Flow:
 - Write an assembly file
 - Run the assembler:
   ```
-  > assemble.py example.asm example.out
+  > python3 assemble.py example.asm example.out
   ```
 - Run the instruction set simulator
   ```
